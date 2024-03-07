@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Github Scroll Top Extension",
+    "description": "An extension to add a fixed scroll to top button to github",
+    "version": "1.0",
+    "content_scripts": [
+        {
+          "js": ["scripts/add_btn.js"],
+          "matches": [
+            "https://github.com/*"
+          ]
+        }
+      ]
+  }
